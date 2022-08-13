@@ -1,0 +1,50 @@
+[
+{
+	"uri": "https://juliamltutorials.github.io/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Machine Learning With Julia Are you ready to discover the joys of machine learning with Julia? Perhaps you\u0026rsquo;ve heard about Julia\u0026rsquo;s first-class performance? Perhaps you read an article about Julia being the future of machine learning? Maybe you\u0026rsquo;re just sick of Python? Well this blog is for you!\nThis collection of tutorials are aimed at those with previous experience with machine learning, who are interested in exploring Julia\u0026rsquo;s capabilities in the field. Each tutorial takes the form of a Pluto notebook which can be run in the cloud with Binder or downloaded to be run on your own machine. A link to each dataset will be provided in the tutorial description.\n"
+},
+{
+	"uri": "https://juliamltutorials.github.io/image-segmentation/",
+	"title": "Image Segmentation",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://juliamltutorials.github.io/image-segmentation/waterbodyextraction/",
+	"title": "Water Body Extraction",
+	"tags": [],
+	"description": "",
+	"content": "Description There\u0026rsquo;s nothing here yet. Check back later!\nNotebook "
+},
+{
+	"uri": "https://juliamltutorials.github.io/object-recognition/catsvsdogs/",
+	"title": "Cats Vs Dogs",
+	"tags": [],
+	"description": "A notebook where we teach a neural network to distinguish between kitties and puppers! Hecking 100% wholesome big chungus!",
+	"content": "Description Can you tell the difference between a cat and a dog? Of course you can! Unfortunately, computers generally struggle with this sort of thing. Thankfully, Flux is here to save the day! Our dataset conists of 25,000 images equally split between cats and dogs. For the sake of this demonstration, we will only use 5000 of these. This tutorial will show you how to build a custom data pipeline compatible with the Flux ecosystem. We will then demonstrate how to leverage transfer learning with Metalhead, by building a ResNet34 network with ImageNet pre-trained weights. Finally, we train our network for two epochs, where the first is used to train our output layer on its own, and the second is for fine-tuning by training all the weights together. I found that training with an AMD 3700x and NVIDIA RTX 2060 takes around 15 minutes in total and produces a model with 97.92% accuracy on the test data.\nNotebook "
+},
+{
+	"uri": "https://juliamltutorials.github.io/object-recognition/",
+	"title": "Object Recognition",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://juliamltutorials.github.io/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://juliamltutorials.github.io/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
