@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning With Julia</title>
-    <link>https://juliamltutorials.github.io/</link>
-    <description>Recent content on Machine Learning With Julia</description>
+    <title>Image Classification on Machine Learning With Julia</title>
+    <link>https://juliamltutorials.github.io/image-classification/</link>
+    <description>Recent content in Image Classification on Machine Learning With Julia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Aug 2022 19:39:08 -0600</lastBuildDate><atom:link href="https://juliamltutorials.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Aug 2022 19:39:08 -0600</lastBuildDate><atom:link href="https://juliamltutorials.github.io/image-classification/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MNIST</title>
       <link>https://juliamltutorials.github.io/image-classification/mnist/</link>
@@ -14,16 +14,6 @@
       
       <guid>https://juliamltutorials.github.io/image-classification/mnist/</guid>
       <description>Description Yes, you&amp;rsquo;ve seen this a hundred times before, but who am I to break tradition?
-Notebook </description>
-    </item>
-    
-    <item>
-      <title>Water Body Extraction</title>
-      <link>https://juliamltutorials.github.io/semantic-segmentation/waterbodyextraction/</link>
-      <pubDate>Fri, 12 Aug 2022 23:41:41 -0600</pubDate>
-      
-      <guid>https://juliamltutorials.github.io/semantic-segmentation/waterbodyextraction/</guid>
-      <description>Description There&amp;rsquo;s nothing here yet. Check back later!
 Notebook </description>
     </item>
     
