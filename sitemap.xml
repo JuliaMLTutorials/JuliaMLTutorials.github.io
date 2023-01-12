@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/computer-vision/</loc>
+    <loc>https://juliamltutorials.github.io/computer-vision/</loc>
     <lastmod>2023-01-11T16:49:05-07:00</lastmod>
   </url><url>
-    <loc>http://example.org/machine-learning/</loc>
+    <loc>https://juliamltutorials.github.io/machine-learning/</loc>
     <lastmod>2023-01-11T17:01:56-07:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://juliamltutorials.github.io/</loc>
     <lastmod>2023-01-11T17:01:56-07:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://juliamltutorials.github.io/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://juliamltutorials.github.io/tags/</loc>
   </url>
 </urlset>

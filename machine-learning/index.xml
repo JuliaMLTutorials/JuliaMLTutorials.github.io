@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning on Machine Learning With Julia</title>
-    <link>http://example.org/machine-learning/</link>
+    <link>https://juliamltutorials.github.io/machine-learning/</link>
     <description>Recent content in Machine Learning on Machine Learning With Julia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Jan 2023 17:01:56 -0700</lastBuildDate><atom:link href="http://example.org/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Jan 2023 17:01:56 -0700</lastBuildDate><atom:link href="https://juliamltutorials.github.io/machine-learning/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
