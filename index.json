@@ -1,0 +1,36 @@
+[
+{
+	"uri": "http://example.org/computer-vision/",
+	"title": "Computer Vision",
+	"tags": [],
+	"description": "",
+	"content": "Computer Vision This chapter is devoted to computer vision projects.\n"
+},
+{
+	"uri": "http://example.org/machine-learning/",
+	"title": "Machine Learning",
+	"tags": [],
+	"description": "",
+	"content": "Machine Learning This chapter is devoted to machine learning projects. Many examples with make extensive use of Julia\u0026rsquo;s MLJ library.\n"
+},
+{
+	"uri": "http://example.org/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Machine Learning With Julia Are you ready to discover the joys of machine learning with Julia? Perhaps you\u0026rsquo;ve heard about Julia\u0026rsquo;s first-class performance? Perhaps you read an article about Julia being the future of machine learning? Maybe you\u0026rsquo;re just sick of Python? Well this blog is for you!\nThis collection of tutorials are aimed at those with previous experience with machine learning, who are interested in exploring Julia\u0026rsquo;s capabilities in the field. Each tutorial takes the form of a Pluto notebook which can be run in the cloud with Binder or downloaded to be run on your own machine. A link to each dataset will be provided in the tutorial description.\n"
+},
+{
+	"uri": "http://example.org/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
