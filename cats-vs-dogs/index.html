@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title> :: Machine Learning With Julia</title>
+    <title>Cats vs Dogs :: Machine Learning With Julia</title>
 
     
     <link href="/css/nucleus.css?1673490987" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/cats-vs-dogs/">
     <nav id="sidebar" class="">
 
 
@@ -139,7 +139,7 @@
     
     <li data-nav-id="/cats-vs-dogs/" title="Cats vs Dogs" class="dd-item
         
-        
+        active
         
         ">
       <a href="/cats-vs-dogs/">
@@ -198,26 +198,81 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            <a href='/'></a> > Cats vs Dogs
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#notebook">Notebook</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
         <div id="head-tags">
         
         </div>
         
         <div id="body-inner">
           
+            <h1>
+              
+              Cats vs Dogs
+            </h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
 
- 
-<h1 id="machine-learning-with-julia">Machine Learning With Julia</h1>
-<p>Are you ready to discover the joys of machine learning with Julia? Perhaps you&rsquo;ve heard about Julia&rsquo;s first-class performance? Perhaps you read an article about Julia being the future of machine learning? Maybe you&rsquo;re just sick of Python? Well this blog is for you!</p>
-<p>This collection of tutorials are aimed at those with previous experience with machine learning, who are interested in exploring Julia&rsquo;s capabilities in the field. Each tutorial takes the
-form of a Pluto notebook which can be run in the cloud with Binder or downloaded to be run on your own machine. A link to each dataset will be provided in the tutorial description.</p>
+
+	<h2 id="description">Description</h2>
+<p>Can you tell the difference between a cat and a dog? Of course you can! Unfortunately, computers generally struggle with this sort of thing. Thankfully, <a href="https://fluxml.ai/Flux.jl/stable/">Flux</a> is here to save the day! Our <a href="https://www.microsoft.com/en-us/download/details.aspx?id=54765">dataset</a> conists of 25,000 images equally split between cats and dogs. For the sake of this demonstration, we will only use 5000 of these. This tutorial will show you how to build a custom data pipeline compatible with the Flux ecosystem. We will then demonstrate how to leverage transfer learning with <a href="https://github.com/FluxML/Metalhead.jl">Metalhead</a>, by building a ResNet34 network with ImageNet pre-trained weights. Finally, we train our network for two epochs, where the first is used to train our output layer on its own, and the second is for fine-tuning by training all the weights together. I found that training with an AMD 3700x and NVIDIA RTX 2060 takes around 15 minutes in total and produces a model with 97.92% accuracy on the test data.</p>
+<h2 id="notebook">Notebook</h2>
+<iframe src="/CatsVsDogs.html" style="height:90vh; width:66vw;"></iframe>
+
+
+
+
+<footer class=" footline" >
 	
-  
+</footer>
+
         
         </div>
         
@@ -284,6 +339,7 @@ form of a Pluto notebook which can be run in the cloud with Binder or downloaded
             
                 
                     
+                    
                 
                 
 
@@ -299,6 +355,9 @@ form of a Pluto notebook which can be run in the cloud with Binder or downloaded
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -348,4 +407,3 @@ form of a Pluto notebook which can be run in the cloud with Binder or downloaded
 
   </body>
 </html>
-

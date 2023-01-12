@@ -1,17 +1,31 @@
 [
 {
-	"uri": "https://juliamltutorials.github.io/computer-vision/",
-	"title": "Computer Vision",
+	"uri": "https://juliamltutorials.github.io/mnist/",
+	"title": "MNIST",
 	"tags": [],
 	"description": "",
-	"content": "Computer Vision This chapter is devoted to computer vision projects.\n"
+	"content": "Description Yes, you\u0026rsquo;ve seen this a hundred times before, but who am I to break tradition?\nNotebook "
 },
 {
-	"uri": "https://juliamltutorials.github.io/machine-learning/",
-	"title": "Machine Learning",
+	"uri": "https://juliamltutorials.github.io/mlj/",
+	"title": "MLJ",
 	"tags": [],
 	"description": "",
-	"content": "Machine Learning This chapter is devoted to machine learning projects. Many examples with make extensive use of Julia\u0026rsquo;s MLJ library.\n"
+	"content": "Description Yes, you\u0026rsquo;ve seen this a hundred times before, but who am I to break tradition?\nNotebook "
+},
+{
+	"uri": "https://juliamltutorials.github.io/cats-vs-dogs/",
+	"title": "Cats vs Dogs",
+	"tags": [],
+	"description": "",
+	"content": "Description Can you tell the difference between a cat and a dog? Of course you can! Unfortunately, computers generally struggle with this sort of thing. Thankfully, Flux is here to save the day! Our dataset conists of 25,000 images equally split between cats and dogs. For the sake of this demonstration, we will only use 5000 of these. This tutorial will show you how to build a custom data pipeline compatible with the Flux ecosystem. We will then demonstrate how to leverage transfer learning with Metalhead, by building a ResNet34 network with ImageNet pre-trained weights. Finally, we train our network for two epochs, where the first is used to train our output layer on its own, and the second is for fine-tuning by training all the weights together. I found that training with an AMD 3700x and NVIDIA RTX 2060 takes around 15 minutes in total and produces a model with 97.92% accuracy on the test data.\nNotebook "
+},
+{
+	"uri": "https://juliamltutorials.github.io/mixture-density-networks/",
+	"title": "Mixture Density Networks",
+	"tags": [],
+	"description": "",
+	"content": "Description Can you tell the difference between a cat and a dog? Of course you can! Unfortunately, computers generally struggle with this sort of thing. Thankfully, Flux is here to save the day! Our dataset conists of 25,000 images equally split between cats and dogs. For the sake of this demonstration, we will only use 5000 of these. This tutorial will show you how to build a custom data pipeline compatible with the Flux ecosystem. We will then demonstrate how to leverage transfer learning with Metalhead, by building a ResNet34 network with ImageNet pre-trained weights. Finally, we train our network for two epochs, where the first is used to train our output layer on its own, and the second is for fine-tuning by training all the weights together. I found that training with an AMD 3700x and NVIDIA RTX 2060 takes around 15 minutes in total and produces a model with 97.92% accuracy on the test data.\nNotebook "
 },
 {
 	"uri": "https://juliamltutorials.github.io/",
