@@ -11,7 +11,7 @@
 	"title": "MLJ",
 	"tags": [],
 	"description": "",
-	"content": "Description Yes, you\u0026rsquo;ve seen this a hundred times before, but who am I to break tradition?\nNotebook "
+	"content": "Description MLJ is the preeminent all-in-one machine learning framework for Julia. In many ways, you can think of it like Python\u0026rsquo;s scikit-learn. In fact, MLJ provides a wrapper around scikit-learn\u0026rsquo;s models via PyCall. Thanks to Julia\u0026rsquo;s intelligent language design, MLJ makes it easy to add your own machine learning algorithms by implementing its simple interface. MLJ is thus able to provide a single unifying API for building, training, and evaluating a large selection of models taken from a variety of packages. Here, we will demonstrate its use on the famous Iris dataset.\nNotebook "
 },
 {
 	"uri": "https://juliamltutorials.github.io/cats-vs-dogs/",
@@ -25,7 +25,7 @@
 	"title": "Mixture Density Networks",
 	"tags": [],
 	"description": "",
-	"content": "Description Can you tell the difference between a cat and a dog? Of course you can! Unfortunately, computers generally struggle with this sort of thing. Thankfully, Flux is here to save the day! Our dataset conists of 25,000 images equally split between cats and dogs. For the sake of this demonstration, we will only use 5000 of these. This tutorial will show you how to build a custom data pipeline compatible with the Flux ecosystem. We will then demonstrate how to leverage transfer learning with Metalhead, by building a ResNet34 network with ImageNet pre-trained weights. Finally, we train our network for two epochs, where the first is used to train our output layer on its own, and the second is for fine-tuning by training all the weights together. I found that training with an AMD 3700x and NVIDIA RTX 2060 takes around 15 minutes in total and produces a model with 97.92% accuracy on the test data.\nNotebook "
+	"content": "Description Mixture Density Networks (MDN) are a very special type of neural network, which are typically employed on data with a lot of noise or when the relationship between features and labels is one-to-many. Unlike a traditional neural network, which produces a point-estimate equal to the mode of the learned conditional distribution P(Y|X), an MDN predicts the parameters of a gaussian mixture model representing the same distribution. This allows MDNs to handle cases where the conditional probabilities are multi-modal in nature. In this example, we will explore how to build and train an MDN from scratch using the Flux and Distributions packages.\nNotebook "
 },
 {
 	"uri": "https://juliamltutorials.github.io/",

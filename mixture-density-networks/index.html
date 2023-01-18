@@ -12,20 +12,20 @@
     <title>Mixture Density Networks :: Machine Learning With Julia</title>
 
     
-    <link href="/css/nucleus.css?1673490987" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1673490987" rel="stylesheet">
-    <link href="/css/hybrid.css?1673490987" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1673490987" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1673490987" rel="stylesheet">
-    <link href="/css/auto-complete.css?1673490987" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1673490987" rel="stylesheet">
-    <link href="/css/theme.css?1673490987" rel="stylesheet">
-    <link href="/css/tabs.css?1673490987" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1673490987" rel="stylesheet">
+    <link href="/css/nucleus.css?1674012431" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1674012431" rel="stylesheet">
+    <link href="/css/hybrid.css?1674012431" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1674012431" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1674012431" rel="stylesheet">
+    <link href="/css/auto-complete.css?1674012431" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1674012431" rel="stylesheet">
+    <link href="/css/theme.css?1674012431" rel="stylesheet">
+    <link href="/css/tabs.css?1674012431" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1674012431" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1673490987"></script>
+    <script src="/js/jquery-3.3.1.min.js?1674012431"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1673490987"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1673490987"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1674012431"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1674012431"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/juliamltutorials.github.io\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1673490987"></script>
+<script type="text/javascript" src="/js/search.js?1674012431"></script>
 
     
   </div>
@@ -262,7 +262,7 @@
 
 
 	<h2 id="description">Description</h2>
-<p>Can you tell the difference between a cat and a dog? Of course you can! Unfortunately, computers generally struggle with this sort of thing. Thankfully, <a href="https://fluxml.ai/Flux.jl/stable/">Flux</a> is here to save the day! Our <a href="https://www.microsoft.com/en-us/download/details.aspx?id=54765">dataset</a> conists of 25,000 images equally split between cats and dogs. For the sake of this demonstration, we will only use 5000 of these. This tutorial will show you how to build a custom data pipeline compatible with the Flux ecosystem. We will then demonstrate how to leverage transfer learning with <a href="https://github.com/FluxML/Metalhead.jl">Metalhead</a>, by building a ResNet34 network with ImageNet pre-trained weights. Finally, we train our network for two epochs, where the first is used to train our output layer on its own, and the second is for fine-tuning by training all the weights together. I found that training with an AMD 3700x and NVIDIA RTX 2060 takes around 15 minutes in total and produces a model with 97.92% accuracy on the test data.</p>
+<p>Mixture Density Networks (MDN) are a very special type of neural network, which are typically employed on data with a lot of noise or when the relationship between features and labels is one-to-many. Unlike a traditional neural network, which produces a point-estimate equal to the mode of the learned conditional distribution P(Y|X), an MDN predicts the parameters of a gaussian mixture model representing the same distribution. This allows MDNs to handle cases where the conditional probabilities are multi-modal in nature. In this example, we will explore how to build and train an MDN from scratch using the <a href="https://fluxml.ai/Flux.jl/stable/">Flux</a> and <a href="https://juliastats.org/Distributions.jl/stable/">Distributions</a> packages.</p>
 <h2 id="notebook">Notebook</h2>
 <iframe src="/MDN.html" style="height:90vh; width:66vw;"></iframe>
 
@@ -382,19 +382,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1673490987"></script>
-    <script src="/js/perfect-scrollbar.min.js?1673490987"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1673490987"></script>
-    <script src="/js/jquery.sticky.js?1673490987"></script>
-    <script src="/js/featherlight.min.js?1673490987"></script>
-    <script src="/js/highlight.pack.js?1673490987"></script>
+    <script src="/js/clipboard.min.js?1674012431"></script>
+    <script src="/js/perfect-scrollbar.min.js?1674012431"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1674012431"></script>
+    <script src="/js/jquery.sticky.js?1674012431"></script>
+    <script src="/js/featherlight.min.js?1674012431"></script>
+    <script src="/js/highlight.pack.js?1674012431"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1673490987"></script>
-    <script src="/js/learn.js?1673490987"></script>
-    <script src="/js/hugo-learn.js?1673490987"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1674012431"></script>
+    <script src="/js/learn.js?1674012431"></script>
+    <script src="/js/hugo-learn.js?1674012431"></script>
     
         
-            <script src="/mermaid/mermaid.js?1673490987"></script>
+            <script src="/mermaid/mermaid.js?1674012431"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
